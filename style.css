@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+}
+
+body{
+  background-color: #131320;
+  color: #fff;
+}
+
+
+
+.content-main{
+  width: 100%;
+  padding: 5%;
+}
+
+.content-main > h1{
+  font-size: 70px;
+  margin: 40px 0px;
+  color: #fff;
+  text-align: center;
+}
+
+.project{
+  padding: 25px;
+  border: 1px solid #808080;
+  border-radius: 10px ;
+  -webkit-border-radius: 10px ;
+  -moz-border-radius: 10px ;
+  -ms-border-radius: 10px ;
+  -o-border-radius: 10px ;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.project div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project div:first-child{
+  align-items: flex-start;
+}
+
+.url{
+  width: 100%;
+  font-size: 24px;
+  color: #808080;
+}
+
+.title{
+  color:#31319f;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+:is(.language, .date){
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.date{
+  color: #808080;
+  border: 1px solid #808080;
+  padding: 5px 10px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
